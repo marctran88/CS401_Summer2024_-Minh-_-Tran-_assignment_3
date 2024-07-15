@@ -1,0 +1,42 @@
+Objective: The objective of this test plan is to validate the functionality of the `StringUtils` class by writing and executing 
+unit tests using JUnit. The primary goal is to ensure that the string manipulation methods in the `StringUtils` class work 
+correctly under various input scenarios.
+
+Test Scenarios:
+
+1. Concatenation of Two Strings
+   - Test concatenation of two non-empty strings.
+   - Test concatenation of an empty string with a non-empty string.
+   - Test concatenation of two empty strings.
+   - Test concatenation of single-character strings.
+   - Test concatenation of alphanumeric strings.
+
+2. Reversal of a String
+   - Test reversal of a non-empty string.
+   - Test reversal of an empty string.
+   - Test reversal of a single-character string.
+   - Test reversal of an alphanumeric string.
+
+3. Conversion of a String to Uppercase
+   - Test conversion of a non-empty string to uppercase.
+   - Test conversion of an empty string to uppercase.
+   - Test conversion of a single-character string to uppercase.
+   - Test conversion of an alphanumeric string to uppercase.
+
+4. Trimming of Leading and Trailing Whitespace
+   - Test trimming of a string with leading and trailing spaces.
+   - Test trimming of a string with no leading or trailing spaces.
+   - Test trimming of an empty string.
+   - Test trimming of a string with spaces only.
+
+Test Data:
+
+{
+    {"hello", "world", "helloworld", "olleh", "HELLO", "hello"},
+    {"  java  ", "programming", "  java  programming", "  avaj  ", "  JAVA  ", "java"},
+    {"", "", "", "", "", ""},
+    {"A", "B", "AB", "A", "A", "A"},
+    {"123", "456", "123456", "321", "123", "123"}
+}
+
+

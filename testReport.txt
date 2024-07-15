@@ -1,0 +1,95 @@
+Test Results:
+
+1. Concatenation of Two Strings
+   - Test Case 1: Concatenation of "hello" and "world"
+     - Expected Result: "helloworld"
+     - Actual Result: "helloworld"
+     - Status: Pass
+   - Test Case 2: Concatenation of "java " and "programming"
+     - Expected Result: "java programming"
+     - Actual Result: "java programming"
+     - Status: Pass
+   - Test Case 3: Concatenation of "" and ""
+     - Expected Result: ""
+     - Actual Result: ""
+     - Status: Pass
+   - Test Case 4: Concatenation of "A" and "B"
+     - Expected Result: "AB"
+     - Actual Result: "AB"
+     - Status: Pass
+   - Test Case 5: Concatenation of "123" and "456"
+     - Expected Result: "123456"
+     - Actual Result: "123456"
+     - Status: Pass
+
+2. Reversal of a String
+   - Test Case 1: Reversal of "hello"
+     - Expected Result: "olleh"
+     - Actual Result: "olleh"
+     - Status: Pass
+   - Test Case 2: Reversal of "java"
+     - Expected Result: "avaj"
+     - Actual Result: "avaj"
+     - Status: Pass
+   - Test Case 3: Reversal of ""
+     - Expected Result: ""
+     - Actual Result: ""
+     - Status: Pass
+   - Test Case 4: Reversal of "A"
+     - Expected Result: "A"
+     - Actual Result: "A"
+     - Status: Pass
+   - Test Case 5: Reversal of "123"
+     - Expected Result: "321"
+     - Actual Result: "321"
+     - Status: Pass
+
+3. Conversion of a String to Uppercase
+   - Test Case 1: Conversion of "hello" to uppercase
+     - Expected Result: "HELLO"
+     - Actual Result: "HELLO"
+     - Status: Pass
+   - Test Case 2: Conversion of "java" to uppercase
+     - Expected Result: "JAVA"
+     - Actual Result: "JAVA"
+     - Status: Pass
+   - Test Case 3: Conversion of "" to uppercase
+     - Expected Result: ""
+     - Actual Result: ""
+     - Status: Pass
+   - Test Case 4: Conversion of "A" to uppercase
+     - Expected Result: "A"
+     - Actual Result: "A"
+     - Status: Pass
+   - Test Case 5: Conversion of "123" to uppercase
+     - Expected Result: "123"
+     - Actual Result: "123"
+     - Status: Pass
+
+4. Trimming of Leading and Trailing Whitespace
+   - Test Case 1: Trimming of "  hello  "
+     - Expected Result: "hello"
+     - Actual Result: "hello"
+     - Status: Pass
+   - Test Case 2: Trimming of "  java  "
+     - Expected Result: "java"
+     - Actual Result: "java"
+     - Status: Pass
+   - Test Case 3: Trimming of "   "
+     - Expected Result: ""
+     - Actual Result: ""
+     - Status: Pass
+   - Test Case 4: Trimming of " A "
+     - Expected Result: "A"
+     - Actual Result: "A"
+     - Status: Pass
+   - Test Case 5: Trimming of " 123 "
+     - Expected Result: "123"
+     - Actual Result: "123"
+     - Status: Pass
+
+Summary:
+- Total Test Cases: 20
+- Passed: 20
+- Failed: 0
+
